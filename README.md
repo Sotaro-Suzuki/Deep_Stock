@@ -1,11 +1,12 @@
+This repository is currently temporarily open to the public due to employment activity.<br>
 
-# Deep Stock 
+# Introduction
 Hello. I am Sotaro Suzuki, a machine learning and AI engineer.<br>
 I have been developing an "Stock and forex prediction AI" more than three years since its conception.<br>
 The current programme is a beta version and there is no guarantee that it will be profitable, so it is not distributed yet.<br>
 However, I am planning to verify the trading history by third parties, such as GoGoJungle.<br>
 
-## How this program works
+## Deep Stock
 This program can be simply described as an automated trading program with AI.<br>
 What makes it different from ordinary algorithmic trading is that, while ordinary algorithmic trading follows set rules (for example, the simplest rules are golden crosses and dead crosses), this program is automatically collects information, learns, decides, and buys and sells.
 Specifically, the procedure is as follows.<br>

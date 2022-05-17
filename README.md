@@ -1,4 +1,4 @@
-This repository is currently temporarily open to the public due to employment activity.<br>
+This repository is temporarily open to the public now due to employment activity. (05/17/2022)<br>
 
 # Introduction
 Hello. I am Sotaro Suzuki, a machine learning and AI engineer.<br>

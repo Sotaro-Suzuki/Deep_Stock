@@ -21,20 +21,21 @@ Specifically, the procedure is as follows. Please refer to the numbers in the li
 In this way, the AI can be optimised every time according to what information is important to the times, making it possible for the system to continue growing without any modifications.<br>
 
 ## Backtesting Result
-The following image shows the results of a simulation that has been trading for the past four months<br>
+The following image shows the results of a simulation that has been trading for four months<br>
 ![4096-64-1e-06-0 001-glorot_normal-LSTM-2 0-0 0-1 0-1 0-30分割](https://user-images.githubusercontent.com/95641926/147685891-28501ed7-1290-4642-857c-627b2848916f.png)
 <br>
 The blue line is the profit from a long position. In other words, the more it rises steadily, the more profitable it is.<br>
 Conversely, the red line is the profit when a short position is taken. In this case, the more it falls to the right, the more profitable it is.<br>
 The green line is then the sum of the profit from a long position and short position.<br>
-The left-hand scale shows the price of the currency, that is, EUR_USD, while the right-hand scale shows the profit (in US dollars) when trading in one currency. As a result of trading over the four months (2021/08/31~2021/12/29), the total profit has grown to 0.067, which means that if, for example, the asset amount is $130,000 and all the trades were in 100,000 currencies, the profit would be $6691. However, there are 502 trades and the transaction fee of $0.00005 per trade, so the pure profit would be $4181.<br>
-The interest rate for the last four months is therefore 3.70%. Taking into account the maximum drawdown, there is no bankruptcy risk up to 25x leverage, but if the leverage is set to 10x, just in case, the interest rate is 37.0%.<br>
+The left-hand scale shows the price of the currency, that is, EUR_USD, while the right-hand scale shows the profit (in US dollars) when trading in one currency. As a result of trading over the four months (2021/08/31~2021/12/29), the total profit has grown to $0.06691, which means that if, for example, the asset amount is $100,000 and all the trades were in 100,000 currencies, the profit would be $6691. However, there are 502 trades and the transaction fee of $0.00005 per trade, so the pure profit would be $4181.<br>
+The interest rate for the last four months is therefore 4.18%. Taking into account the maximum drawdown, there is no bankruptcy risk up to 25x leverage, but if the leverage is set to 10x, just in case, the interest rate is 41.0%.<br>
 
 ## Forward Testing Result
 The following images show the results of the forward test from January 1 to May 17, 2022. <br>
+![1024-512-1e-06-0 001-glorot_normal-LSTM-3 0-1-1-1-1-60分割](https://user-images.githubusercontent.com/95641926/168840483-3879ff7a-5538-401e-b5d3-019e7695d0e0.png)
 
-The total profit has risen to 0.067, which means that if, for example, the asset amount is $130,000 and all the trades were in 100,000 currencies, the profit would be $6691. Then, there are 502 trades and the transaction fee of $0.00005 per trade, so the pure profit is $4181.<br>
-The profit ratio for the past 5 months is therefore 3.70%. <br>
+The total profit has risen to 0.07578, which means that if, for example, the asset amount is $100,000 and all the trades were in 100,000 currencies, the profit would be $7578. Then, there are 615 trades and the transaction fee of $0.00005 per trade, so the pure profit is $5248.
+The profit ratio for the past 5 months is therefore 5.25%. <br>
 
 ## Installation
 This AI currently performs best on Forex EUR/USD, so only EUR/USD is available for automated trading. I am also testing AI for bonds, commodities, and crypto asset trading and will upload additional AI as performance improves.<br>

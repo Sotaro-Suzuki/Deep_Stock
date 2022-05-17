@@ -1,10 +1,10 @@
 This repository is temporarily open to the public now due to employment activity. (05/17/2022)<br>
 
-# Introduction
+## Short introduction
 Hello. I am Sotaro Suzuki, a machine learning and AI engineer.<br>
 I have been developing an "Stock and forex prediction AI" more than three years since its conception.<br>
 The current programme is a beta version and there is no guarantee that it will be profitable, so it is not distributed yet.<br>
-However, I am planning to verify the trading history by third parties, such as GoGoJungle.<br>
+However, I am planning to verify the trading history by third parties, such as Forex Factory, MQL4 databse and GoGoJungle.<br>
 
 ## Deep Stock
 This program can be simply described as an automated trading program with AI.<br>

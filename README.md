@@ -8,7 +8,7 @@ However, I am planning to verify the trading history by third parties, such as F
 
 ## Deep Stock
 Deep Stock can be simply described as an automated trading program with AI.<br>
-What makes it different from ordinary algorithmic trading is that, while ordinary algorithmic trading follows set rules (for example, the simplest rules are golden crosses and dead crosses), this program is automatically collects information, learns, decides, and buys and sells.
+What makes it different from ordinary algorithmic trading is that, while ordinary algorithmic trading follows a certain rule (for example, the simplest rules is golden crosses and dead crosses, and a complex one may be Elliott wave or Dow theory), this program automatically collects information, pre-process it, learns it, predict, buys and sells entirely.
 
 ### how the program works
 Specifically, the procedure is as follows. Please refer to the numbers in the list against the numbers in the figure below.<br><br>
@@ -38,7 +38,7 @@ The total profit has risen to 0.07578, which means that if, for example, the ass
 The profit ratio for the past 5 months is therefore 5.25%. <br>
 
 ## Installation
-This AI currently performs best on Forex EUR/USD, so only EUR/USD is available for automated trading. I am also testing AI for bonds, commodities, and crypto asset trading and will upload additional AI as performance improves.<br>
+This AI currently performs best on Forex EUR/USD, so only EUR/USD is available for automated trading. I am also building a model for bonds, commodities, and crypto asset trading and will upload them additionally as performance improves.<br>
 And currently there is one EX4 file uploaded to this Repositorie. So the only platform where trading can be done is on MetaTrader 4 (recommended by OandaJapan). I am planning to develop software for any brokerage platform in the near future.<br>
 And since MetaTrader 4 needs to be connected to the internet at all times, it is recommended that the following steps are taken on the virtual environment in the cloud.<br>
 The following is a concrete introduction to the system.<br>
@@ -48,6 +48,7 @@ The following is a concrete introduction to the system.<br>
 (4)Under 'Options', select 'Expert Adviser', check the boxed area as shown in the picture below and add <br>"http://ss-cloud.net"<br> to the url. This will allow you to request a real-time buy/sell decision from the cloud and at the same time trade the actual buy/sell transaction.<br>
 (5)When dragging and dropping 'FXAI.ex4' from the 'Expert' folder onto the EUR_USD 15-minute chart, the following window will appear. Here there are fields for entering your name and date of birth as external variables, so please insert your full name in alphabets, e.g.　JohnSmith. Enter the date of birth without any spaces, e.g. 20010101. The name and date of birth are matched in the cloud and the trading decision is sent to an MQL4 file, which can then be traded on MT4.<br>
 <img width="330" alt="スクリーンショット 2021-12-15 0 12 00" src="https://user-images.githubusercontent.com/95641926/146094305-e216becb-5ce6-4816-9490-f8d798b7c02f.png"><br>
+
 
 
 

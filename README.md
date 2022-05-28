@@ -11,11 +11,9 @@ Deep Stock can be simply described as an automated trading program with AI.<br>
 What makes it different from ordinary algorithmic trading is that, while ordinary algorithmic trading follows a certain rule (for example, the simplest rules is golden crosses and dead crosses, and a complex one may be Elliott wave or Dow theory), this program automatically collects information, pre-process it, learns it, predict, buys and sells entirely.
 
 ### how the program works
-Specifically, the procedure is as follows. Please refer to the numbers in the list against the numbers in the figure below.<br><br>
+Specifically, the procedure is as follows. Please refer to the numbers in the list against the numbers in the figure below.<br>
 
-![FXAI drawio](https://user-images.githubusercontent.com/95641926/170833051-591ffebc-7f5d-4372-a39c-dccbe4dea405.png)
-
-![4096-64-1e-06-0 001-glorot_normal-LSTM-2 0-0 0-1 0-1 0-30分割](https://user-images.githubusercontent.com/95641926/170833051-591ffebc-7f5d-4372-a39c-dccbe4dea405.png)
+<img src="https://user-images.githubusercontent.com/95641926/170833051-591ffebc-7f5d-4372-a39c-dccbe4dea405.png" width="600">
 
 (1)First, information on past stock prices, foreign exchange rates, commodity futures, economic indicators and SNS (twitter, reddit) is collected and stored as data automatically on a regular basis in the cloud.<br>
 (2)Next, the data is automatically trained by AI in the cloud. The key point here is that it does not learn in a predefined pattern, but rather uses ensemble learning, i.e. it tries out different models, quantifies which information has the greatest impact on the time period, and can choose a combination of several optimal models. Image recognition, natural language processing and time series processing are parallelised and all processes are fast enough to fit within one second. This algorithm chooses the one with the best results from among the algorithms adopted from the latest papers and improved independently, and then optimises the initialisation of parameters, layers, weights and biases in it.<br>

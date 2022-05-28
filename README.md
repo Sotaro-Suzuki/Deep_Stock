@@ -10,7 +10,7 @@ Also, I am planning to verify the trading history by third parties, such as Fore
 Deep Stock can be simply described as an automated trading program with AI.<br>
 What makes it different from ordinary algorithmic trading is that, while ordinary algorithmic trading follows a certain rule (for example, the simplest rules is golden crosses and dead crosses, and a complex one may be Elliott wave or Dow theory), this program automatically collects information, pre-process it, learns it, predict, buys and sells entirely.
 
-### how the program works
+### How the program works
 Specifically, the procedure is as follows. Please refer to the numbers in the list against the numbers in the figure below.<br>
 
 <img src="https://user-images.githubusercontent.com/95641926/170833051-591ffebc-7f5d-4372-a39c-dccbe4dea405.png" width="600">

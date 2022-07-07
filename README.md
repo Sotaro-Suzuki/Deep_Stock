@@ -2,7 +2,7 @@ This repository is temporarily open to the public now due to job hunting. (05/17
 
 ## Short introduction
 Hello. I am Sotaro Suzuki, a machine learning and AI engineer.<br>
-I have been developing an "Stock and forex prediction AI" more than three years since its conception.<br>
+I have been developing an "Stock and forex prediction AI" for more than three years since its conception.<br>
 The current program is a beta version and there is no guarantee that it will be always profitable. Thus, please open a demo account and install the program. <br>
 Also, I am planning to verify the trading history by third parties, such as Forex Factory, MQL4 databse and GoGoJungle.<br>
 

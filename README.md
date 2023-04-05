@@ -1,9 +1,7 @@
 
 ## Short introduction
-Hello. I am Sotaro Suzuki, a machine learning and AI engineer.<br>
-I have been developing an "Stock and forex prediction AI" for more than three years since its conception.<br>
-The current program is a beta version and there is no guarantee that it will be always profitable. Thus, please open a demo account and install the program. <br>
-Also, I am planning to verify the trading history by third parties, such as Forex Factory, MQL4 databse and GoGoJungle.<br>
+Greetings, my name is Sotaro Suzuki and I specialize in machine learning and AI engineering.<br>
+For over six years now, I have been working on developing an AI-based program that predicts stock and forex market trends. It is important to note that the current version of the program is still in its beta stage and there is no assurance of consistent profitability. <br> Therefore, I strongly advise that you open a demo account and install the program for testing purposes. Additionally, I am in the process of arranging third-party verification of the program's trading history through platforms such as Forex Factory, MQL4 database, and GoGoJungle.
 
 ## Deep Stock
 Deep Stock can be simply described as an automated trading program with AI.<br>

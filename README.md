@@ -1,4 +1,3 @@
-This repository is temporarily open to the public. (01/01/2023)<br>
 
 ## Short introduction
 Hello. I am Sotaro Suzuki, a machine learning and AI engineer.<br>

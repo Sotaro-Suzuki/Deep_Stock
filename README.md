@@ -36,6 +36,9 @@ The following images show the results of the forward test from January 1 to May 
 The total profit has risen to 0.07578, which means that if, for example, the asset amount is $100,000 and all the trades were in 100,000 currencies, the profit would be $7578. Then, there are 615 trades and the transaction fee of $0.00005 per trade, so the pure profit is $5248.
 The profit ratio for the past 5 months is therefore 5.25%. <br>
 
+## Forward Testing Result (2023)
+The paper will be written as a thesis after confirming profitability up to the present time in 2023.
+
 ## Installation
 This AI currently performs best on Forex EUR/USD, so only EUR/USD is available for automated trading. I am also building a model for bonds, commodities, and crypto asset trading and will upload them additionally as performance improves.<br>
 And currently there is one EX4 file uploaded to this Repositorie. So the only platform where trading can be done is on MetaTrader 4 (recommended by OandaJapan). I am planning to develop software for any brokerage platform in the near future.<br>

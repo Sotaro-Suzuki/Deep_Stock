@@ -10,7 +10,9 @@ What makes it different from ordinary algorithmic trading is that, while ordinar
 ### How the program works
 Specifically, the procedure is as follows. Please refer to the numbers in the list against the numbers in the figure below.<br>
 
-<img src="https://user-images.githubusercontent.com/95641926/170833051-591ffebc-7f5d-4372-a39c-dccbe4dea405.png" width="600">
+
+![FXAI drawio (2)](https://github.com/Sotaro-Suzuki/Deep_Stock/assets/95641926/3d60e5af-36dc-4992-8c35-04771bb25d49)
+
 
 (1)First, information on past stock prices, foreign exchange rates, commodity futures, economic indicators and SNS (twitter, reddit) is collected and stored as data automatically on a regular basis in the cloud.<br>
 (2)Next, the data is automatically trained by AI in the cloud. The key point here is that it does not learn in a predefined pattern, but rather uses ensemble learning, i.e. it tries out different models, quantifies which information has the greatest impact on the time period, and can choose a combination of several optimal models. Image recognition, natural language processing and time series processing are parallelised and all processes are fast enough to fit within one second. This algorithm chooses the one with the best results from among the algorithms adopted from the latest papers and improved independently, and then optimises the initialisation of parameters, layers, weights and biases in it.<br>
@@ -22,6 +24,8 @@ In this way, the AI can be optimised every time according to what information is
 ## Backtesting Result
 The following image shows the results of a simulation that has been trading for four months<br>
 ![4096-64-1e-06-0 001-glorot_normal-LSTM-2 0-0 0-1 0-1 0-30分割](https://user-images.githubusercontent.com/95641926/147685891-28501ed7-1290-4642-857c-627b2848916f.png)
+
+
 <br>
 The blue line is the profit from a long position. In other words, the more it rises steadily, the more profitable it is.<br>
 Conversely, the red line is the profit when a short position is taken. In this case, the more it falls to the right, the more profitable it is.<br>
